@@ -4,6 +4,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 
+# https://github.com/vaastav/Fantasy-Premier-League
+# Поместить папку data в одно окружеине с этим кодом
+
 data_path = 'data'
 
 
@@ -116,27 +119,3 @@ class Graph:
         plt.show()
         return plt
 
-#df = pd.read_csv('data/2017-18/players_raw.csv')
-#print(df[['id', 'team_code', 'web_name']])
-
-#data = x.to_df()
-#save = Data.progress_save(data, 'all')
-
-
-x = Data('test')
-g = Graph(x.to_df(2020))
-g.distribution_category('team', 'total_points', 'was_home')
-
-
-
-
-
-
-#gw = pd.read_csv(test)
-#teams = pd.read_csv('teams.csv')
-
-#result = pd.merge(gw, teams, on='')
-
-#writer = pd.ExcelWriter('data.xlsx', engine='xlsxwriter')
-#x.all_data().to_excel(writer, sheet_name='Data', startrow=0, startcol=0)
-#writer.save()
