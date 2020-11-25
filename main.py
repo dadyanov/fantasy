@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import time
 
 # https://github.com/vaastav/Fantasy-Premier-League
-# Поместить папку data в одно окружеине с этим кодом
+# Поместить папку data в одно окружеине с этим кодом и сказать спасибо разработчику
 
 data_path = 'data'
 
